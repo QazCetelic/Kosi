@@ -1,7 +1,7 @@
-import unix_types.bsd_types.BSD
-import unix_types.bsd_types.NetBSD
-import unix_types.linux_types.Linux
-import windows_types.personal.Windows10
+import kosi.unix_types.bsd_types.BSD
+import kosi.unix_types.bsd_types.NetBSD
+import kosi.unix_types.linux_types.Linux
+import kosi.windows_types.personal.Windows10
 
 fun main() {
     when (val os = currentOS()) {
