@@ -15,12 +15,11 @@ fun main() {
             println("This might be FreeBSD")
         }
         is Windows10 -> {
-            val pro = when (os.edition) {
-                Windows10.Edition.PRO -> true
-                Windows10.Edition.PRO_EDUCATION -> true
-                Windows10.Edition.PRO_FOR_WORKSTATIONS -> true
-                else -> false
-            }
+            println("This is a modern version of Windows")
+        }
+        is Windows -> {
+            println("This could be Windows 8 or 7 but also something ancient like ME")
+            if (os is WindowsME) println("It actually is")
         }
     }
 }
