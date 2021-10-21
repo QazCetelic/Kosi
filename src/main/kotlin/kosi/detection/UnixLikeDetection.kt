@@ -7,7 +7,7 @@ import kosi.unix_types.bsd_types.NetBSD
 import kosi.unix_types.bsd_types.OpenBSD
 import neatlin.SystemInfo
 import neatlin.processes.LinuxShell
-import kosi.unix_types.Haiku
+import kosi.base_types.Haiku
 import kosi.unix_types.bsd_types.DragonFlyBSD
 import kosi.unix_types.linux_types.Linux
 import kosi.unix_types.bsd_types.mac_types.MacOS

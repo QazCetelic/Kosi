@@ -1,4 +1,4 @@
-package kosi.unix_types
+package kosi.base_types
 
 import kosi.OSType
 
