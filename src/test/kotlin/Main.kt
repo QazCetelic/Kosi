@@ -1,3 +1,4 @@
+import kosi.currentOS
 import kosi.unix_types.bsd_types.BSD
 import kosi.unix_types.bsd_types.NetBSD
 import kosi.unix_types.linux_types.Linux
