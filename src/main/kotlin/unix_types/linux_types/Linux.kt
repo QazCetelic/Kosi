@@ -28,11 +28,11 @@ class Linux: LinuxBased() {
                                 // Some entries do the same thing, I added both in case 1 is missing
                                 "NAME" -> name = pair[1]
                                 "VERSION" -> version = pair[1]
-                                "ID" -> id = pair[1].toUpperCase()
+                                "ID" -> id = pair[1].uppercase()
                                 "ID_LIKE" -> base = pair[1]
                                 "VERSION_ID" -> version = pair[1]
                                 "HOME_URL" -> site = pair[1]
-                                "DISTRIB_ID" -> id = pair[1].toUpperCase()
+                                "DISTRIB_ID" -> id = pair[1].uppercase()
                                 "DISTRIB_RELEASE" -> version = pair[1]
                             }
                         }
