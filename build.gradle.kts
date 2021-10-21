@@ -12,7 +12,9 @@ repositories {
 }
 
 dependencies {
-    implementation(files("/home/qaz/Projects/Programming/Neatlin/build/libs/Neatlin-jvm-0.2.2.jar"))
+    implementation(files(
+        "$projectDir/../../Kotlin/Neatlin/build/libs/Neatlin-jvm-0.3.3.jar"
+    ))
     testImplementation(kotlin("test-junit"))
 }
 
