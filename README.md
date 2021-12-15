@@ -27,15 +27,15 @@ fun main() {
 
 ## TODO
 
-- ~~Add Linux~~ ✓
-- ~~Add Windows~~ ✓
-- ~~Add BSD~~ ✓
-- ~~Add macOS (requires detection and testing)~~
-- Add Android (requires detection and testing)
-- ~~Add Linux distro detection~~ ✓
-- Add Windows edition detection
-- Add backup Linux distro detection in case systemd isn't installed
-- Add Windows server OS'
-- Add headless detection?
-- ~~Add Haiku?~~ 𐄂
-- Write tests
+- [x] Linux Support
+- [x] Windows Support
+- [x] BSD Support
+- [x] MacOS Support (requires detection and testing)
+- [x] Android Support (requires detection and testing)
+- [x] Linux distro detection
+- [ ] Windows edition detection
+- [ ] Backup Linux distro detection in case systemd isn't installed
+- [ ] Windows server OS' support
+- [ ] Headless detection
+- [x] Haiku Support
+- [ ] Testing - this is difficult because it needs to be executed on certain operating systems.
