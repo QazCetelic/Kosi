@@ -1,3 +1,6 @@
+# `K`otlin `O`perating `S`ystem `I`nfo
+A capable library for adding specific logic for certain operating systems with varying levels of specificity that uses inheritance and auto-casting to access properties.
+
 ```kotlin
 fun main() {
     when (val os = currentOS()) {
